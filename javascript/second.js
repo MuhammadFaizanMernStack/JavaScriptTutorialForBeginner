@@ -1,0 +1,1 @@
+document.getElementById("h").innerHTML = "Hellow Muhammad Faizan script 2";
