@@ -1,3 +1,29 @@
+// let counter = 12;
+
+// while (counter <= 10) {
+//     ocument.write("Hello World");
+//     counter++;
+
+// }
+
+
+// for (let i = 0; i <= 10; i++) {
+//     document.write("Hello World");
+//     counter++;
+// }
+
+for (let i = 0; i <= 10; i++) {
+
+    if (i == 5) {
+        break;
+    }
+    document.write(i);
+    document.write("<br>");
+
+}
+
+// while (counter <= 10);
+
 // let age = 20;
 // let hasvoterId = "no";
 
@@ -27,28 +53,28 @@
 
 // switch uses only === operator not == operator
 
-let input = "sjs";
+// let input = "sjs";
 
-switch (input) {
-    case 1: // if(input === 1) conpare type as well as value
-        document.write("continue...");
-        break;
-    case "y": // if(input === "y")
-        document.write("continue...");
-        break;
-    case "yes": // if(input === "yes")
-        document.write("continue...");
-        break;
-    case 0:// if(input === 0)
-        document.write("end...");
-        break;
-    case "n": // if(input === "n")
-        document.write("end...");
-        break;
-    case "no": // if(input === "no")
-        document.write("end...");
-        break;
-    default:
-        document.write("Invalid input");
+// switch (input) {
+//     case 1: // if(input === 1) conpare type as well as value
+//         document.write("continue...");
+//         break;
+//     case "y": // if(input === "y")
+//         document.write("continue...");
+//         break;
+//     case "yes": // if(input === "yes")
+//         document.write("continue...");
+//         break;
+//     case 0:// if(input === 0)
+//         document.write("end...");
+//         break;
+//     case "n": // if(input === "n")
+//         document.write("end...");
+//         break;
+//     case "no": // if(input === "no")
+//         document.write("end...");
+//         break;
+//     default:
+//         document.write("Invalid input");
 
-}
+// }
