@@ -21,7 +21,7 @@
 //     document.write("<br>");
 
 // }
-
+// web3 wallet connection 
 var web3;
 async function connect() {
     console.log("connect");
