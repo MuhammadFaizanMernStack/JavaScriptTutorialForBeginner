@@ -12,14 +12,21 @@
 //     counter++;
 // }
 
-for (let i = 0; i <= 10; i++) {
+// for (let i = 0; i <= 10; i++) {
 
-    if (i == 5) {
-        break;
-    }
-    document.write(i);
-    document.write("<br>");
+//     if (i == 5) {
+//         break;
+//     }
+//     document.write(i);
+//     document.write("<br>");
 
+// }
+
+var web3;
+async function connect() {
+    console.log("connect");
+    await window.web3.currentProvider.enable();
+    web3 = new Web3(window.web3.currentProvider);
 }
 
 // while (counter <= 10);

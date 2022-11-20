@@ -1,0 +1,18 @@
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: #600ecc;
+  position: relative;
+  cursor: pointer;
+}
+
+/* .btn:hover {
+  border: 1px solid #f78a4b;
+  background: #d36120;
+  color: white;
+  transition: 1s;
+} */
